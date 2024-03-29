@@ -1,0 +1,27 @@
+:root {
+    --cor-bg-fundo01: #ffffff; /* Cor de fundo geral */
+    --cor-bg-div01:  #353163;/* Cor de fundo das divs */
+    --cor-header-fonte01: black;
+    --cor-fonte-div01: black; /* Cor do texto nas divs */
+    --cor-fonte-titulo01: #ffffff; /* Cor do texto dos títulos */
+    --cor-fonte-destaque01: #FD9D00; /* Cor do texto destacado */
+    --cor-fonte-right01: #5cb8be;
+
+    /* TEMPLATE 02 */
+    --cor-bg-fundo02: #7E4586; /* Cor de fundo geral */
+    --cor-bg-div02:  #45005B;/* Cor de fundo das divs */
+    --cor-header-fonte02: rgb(230, 230, 230);
+    --cor-fonte-div02: white; /* Cor do texto nas divs */
+    --cor-fonte-titulo02: #ffffff; /* Cor do texto dos títulos */
+    --cor-fonte-destaque02: #00FFE0; /* Cor do texto destacado */
+    --cor-fonte-right02: #77DEFF;
+
+    /* TEMPLATE 03 */
+    --cor-bg-fundo03: #232222; /* Cor de fundo geral */
+    --cor-bg-div03:  #606060;/* Cor de fundo das divs */
+    --cor-header-fonte03: white;
+    --cor-fonte-div03: white; /* Cor do texto nas divs */
+    --cor-fonte-titulo03: #ffffff; /* Cor do texto dos títulos */
+    --cor-fonte-destaque03: black; /* Cor do texto destacado */
+    --cor-fonte-right03: #e4e4e4;
+  }

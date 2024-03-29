@@ -1,0 +1,248 @@
+/* HEADER */
+
+header {
+  height: 15vh;
+  width: 100%;
+  background-color: var(--cor-bg-fundo01);
+  display: flex;
+}
+
+.container-img img {
+  width: auto;
+  height: 10rem;
+  margin-top: 2.3rem;
+  margin-left: 2rem;
+}
+.content-div{
+  background-color: var(--cor-bg-fundo01);
+}
+
+body{
+  background-color: var(--cor-bg-fundo01);
+}
+
+.container-aside-text p,
+.text-container p{
+  color: var(--cor-header-fonte01); /* Cor do texto dos títulos */
+}
+
+.text-container p{
+  font-weight: bold;
+  text-align: justify;
+}
+
+.header-text {
+  position: absolute;
+  top: 50px;
+  left: 75%;
+  font-size: 28px;
+  display: inline;
+}
+
+
+aside {
+  position: absolute;
+  right: 20vh;
+  width: 35vw; /* Defina a largura desejada */
+  height: 75vh;
+  background-color: var(--cor-bg-fundo01);
+  color: var(--cor-fonte-titulo01);   
+  float: left;
+}
+
+aside p {
+  font-size: 32px;
+}
+
+.container-aside-text {
+  margin-top: 4vw;
+}
+
+.aside-text02 {
+  margin-top: 5rem;
+}
+
+.aside-subtitle {
+  margin-top: 8rem;
+}
+
+.aside-subtitle p {
+  font-weight: bold;
+  color: var(--cor-fonte-right01);
+}
+
+.content-div {
+
+  margin-left: 5rem;
+  width: 45vw;
+  height: 75vh;
+  position: absolute;
+}
+
+.content-div img {
+  display: block;
+  margin-left: 13rem;
+  margin-top: 3rem;
+  width: 70%;
+  height: auto;
+}
+
+/* PRINCIPAL */
+
+.container-principal {
+  position: relative;
+  top: 75vh;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--cor-bg-div01);
+  font-size: 32px;
+}
+
+.container-left {
+  width: 40%;
+  height: 80%;
+  position: absolute;
+  top: 5vh;
+  left: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex;
+}
+
+.container-right {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  top: 5vh;
+  left: 50vw;
+  
+
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: var(--cor-bg-fundo01);
+  color: var(--cor-header-fonte01);
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+
+/* CONFIG TXT */
+
+
+.container-left-titleONE{
+    font-weight: bold;
+    margin-top: 3rem;
+    font-size: 40px;
+    color: var(--cor-fonte-destaque01);
+}
+
+.container-left-subtitleONE{
+    font-size: 32px;
+    margin-top: 7rem;
+}
+ 
+.container-left-titleTWO{
+    margin-top: 8rem;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+
+
+.container-left-subtitleTWO{
+    font-size: 32px;
+    margin-top: 8rem;
+}
+
+.container-left-titleONE,
+.container-left-subtitleONE, 
+.container-left-titleTWO,
+.container-left-subtitleTWO{
+    margin-right: 5rem; /* Adicione uma margem à direita */
+    text-align: right; /* Alinhe o texto à direita */
+}
+
+.container-left-titleONE p,
+.container-left-subtitleONE p, 
+.container-left-subtitleTWO p{
+    color: var(--cor-fonte-titulo01);
+}
+.container-left-titleTWO p{
+  color: var(--cor-fonte-destaque01);
+}
+
+.container-right-telefone h1{
+    font-size: 80px;
+    color: var(--cor-fonte-destaque01);
+    font-weight: bold;
+}
+
+.lock{
+    margin-top: 15rem;
+    display: flex;
+    height: 100px;
+}
+
+.lock p{
+    margin-left: 10rem;
+    margin-top: 1rem;
+    color: var(--cor-fonte-titulo01);
+}
+
+.voluntario{
+    margin-top: 15rem;
+    display: flex;
+    height: 100px;
+}
+
+.voluntario p{
+    margin-left: 10rem;
+    margin-top: 1rem;
+    color: var(--cor-fonte-titulo01);
+}
+
+/* FOOTER */
+
+.container-footer-img{
+    display: flex;
+    margin-top: 2.5rem;
+    margin-left: 15rem;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.container-footer-img img{
+    width: 200px;
+    height: 50px;
+}
+
+.footer-txt {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    font-size: 18px;
+    transform: translateY(-50%);
+  }
+
+
+  .barra{
+    width: 6px;
+    height: 75vh;
+    background-color: var(--cor-bg-fundo01);
+    position:absolute;
+    bottom: 5%;
+    left: 40vw;
+  }
+
+  .seta img{
+    position: relative;
+    bottom: 185%;
+    left: 105%;
+  }
